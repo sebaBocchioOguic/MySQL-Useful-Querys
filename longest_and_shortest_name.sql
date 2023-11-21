@@ -5,7 +5,7 @@ This Query searches into STATION Table and brings the LONGEST and SHORTEST CITY 
 /* Stores in @max the MAX LENGTH of CITY field */
 SET @max = (SELECT MAX(LENGTH(CITY)) FROM STATION);
 
-/* Stores in @max the MIN LENGTH of CITY field */
+/* Stores in @min the MIN LENGTH of CITY field */
 SET @min = (SELECT MIN(LENGTH(CITY)) FROM STATION);
 
 
