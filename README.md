@@ -1,4 +1,4 @@
-# SQL-Useful-Querys
+# MySQL-Useful-Querys
 
 Repository of SQL Useful Querys
 
